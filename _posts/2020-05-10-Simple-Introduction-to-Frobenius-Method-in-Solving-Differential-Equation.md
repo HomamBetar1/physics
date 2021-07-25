@@ -11,6 +11,8 @@ We are not going to introduce this method with all the detailed proofs. You can 
 
 In many fields in physics and other domains, second-order ordinary differential equations (ODEs) with variable coefficients can result when studying some phenomena. Although there is no general method to solve this kind of equations, one can use many techniques hoping they will help in finding the solution. The difficulty spectre of solving them is very wide with equations at its far end without known analytical solutions. One way to solve the second-order ODE is to guess one of its two independent solutions, and then use it to lower the order of the equation to a first-order ODE which might be easier to treat (remember that the general solution of an ODE is a linear combination of its linearly independent solutions). Another way is the Frobenius method, named after mathematician [Ferdinand Georg Frobenius](http://mathshistory.st-andrews.ac.uk/Biographies/Frobenius.html), which is without any doubt much more general. When applying the Frobenius method, we can obtain the general formulae, as [power series](http://localhost:4000/journal/What-Is-Taylor-Expansion.html), for many special functions, such as Bessel, Legendre, or Hermite functions. However, this does not mean that applying this method will always lead us to a known function. Finally, we stress the fact that when we use this technique, we expand the solution of the ODE around its [regular singular points](http://localhost:4000/journal/What-are-the-Ordinary-and-Singular-Points-of-an-ODE.html).   
 
+$$math = '\\frac{1}{\\sqrt{x^2 + 1}}'$$
+
 ## <ins> Frobenius method</ins>
 In this section, we focus on the following second-order ODE:
 
