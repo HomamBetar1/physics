@@ -24,8 +24,19 @@ description: >- # this means to ignore newlines until "baseurl:"
       Tu vas bien!
 baseurl: "/physics" # the subpath of your site, e.g. /blog
 url: "https://github.com/HomamBetar1" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+#twitter_username: jekyllrb
 github_username:  HomamBetar1
+
+# Fields which are required, but not defaults : ME 
+author: Homam Betar
+linkedin_username: homam-betar
+
+copyright: "SoMathPhys"
+
+# Ideally : 50 px high and minimal horizontal space
+title-logo: /images/logo.png
+
+# Fields which are required, but not defaults : ME
 
 # Build settings
 theme: minima
